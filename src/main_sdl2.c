@@ -11,7 +11,8 @@
 #include "common.c"
 // #include "bzsim_naive.c"
 // #include "bzsim_simd.c"
-#include "bzsim_simd_unrolled.c"
+// #include "bzsim_simd_unrolled.c"
+#include "bzsim_simd_unrolled_parallel.c"
 
 #define FPS 60
 #define FrameTargetDurationMs (1000/FPS)
