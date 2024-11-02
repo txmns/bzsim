@@ -9,7 +9,8 @@
 #include <unistd.h>
 
 #include "common.c"
-#include "bzsim_naive.c"
+// #include "bzsim_naive.c"
+#include "bzsim_simd.c"
 
 #define FPS 60
 #define FrameTargetDurationMs (1000/FPS)
